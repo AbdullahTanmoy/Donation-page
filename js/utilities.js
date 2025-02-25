@@ -19,7 +19,7 @@ function showPageBy(id) {
 }
 
 function showBtnChangeBy(id) {
-  // Reset both buttons to inactive state
+  // When both buttons are in inactive state
   document
     .getElementById("btn-donation")
     .classList.remove("bg-[#B4F461]", "text-black");
@@ -34,7 +34,7 @@ function showBtnChangeBy(id) {
     .getElementById("btn-history")
     .classList.add("border", "border-gray-400", "text-gray-700");
 
-  // Activate the clicked button
+  // When the button is clicked
   document
     .getElementById(id)
     .classList.remove("border", "border-gray-400", "text-gray-700");
