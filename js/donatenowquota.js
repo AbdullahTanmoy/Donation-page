@@ -56,6 +56,8 @@ document
     div.appendChild(p);
     document.getElementById("history-container").appendChild(div);
 
+    document.getElementById('add-money-3').value = "";
+
     // Show modal
     document
       .getElementById("donation-modal")
