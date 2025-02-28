@@ -23,9 +23,9 @@ document
 
     const mainBalance = getTextFieldValueBy("acc-balance");
 
-    if(addMoneyThree > mainBalance){
-        alert('Insufficient balance')
-        return;
+    if (addMoneyThree > mainBalance) {
+      alert("Insufficient balance");
+      return;
     }
 
     const newBalance2 = mainBalance - addMoneyThree;
@@ -56,7 +56,8 @@ document
     div.appendChild(p);
     document.getElementById("history-container").appendChild(div);
 
-    document.getElementById('add-money-3').value = "";
+    //  Field becomes empty
+    document.getElementById("add-money-3").value = "";
 
     // Show modal
     document

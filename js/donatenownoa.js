@@ -4,7 +4,6 @@ document
     event.preventDefault();
 
     const addMoneyOne = getInputFieldValueBy("add-money-1");
-    
 
     if (isNaN(addMoneyOne)) {
       alert("Failed to add money");
@@ -57,7 +56,8 @@ document
     div.appendChild(p);
     document.getElementById("history-container").appendChild(div);
 
-  document.getElementById('add-money-1').value = "";
+    //  Field becomes empty
+    document.getElementById("add-money-1").value = "";
 
     // Show modal
     document
